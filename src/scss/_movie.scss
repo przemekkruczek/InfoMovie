@@ -1,0 +1,43 @@
+.movie {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+.movie__image {
+    margin-right: 150px;
+}
+.movie__list {
+    list-style: none;
+    margin-bottom: 5px;
+    &-overview {
+        margin-top: 15px;
+        list-style: none;
+    }
+}
+.movie__list--bold {
+    font-weight: 900;
+    font-size: 17px;
+}
+.movie__header {
+    margin-bottom: 15px;
+}
+.cast {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+.cast__actors {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.cast__actors-person {
+    width: 170px;
+}
+.cast__actors-img {
+    width: 100%;
+    height: auto;
+}

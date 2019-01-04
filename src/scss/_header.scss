@@ -1,0 +1,32 @@
+.header {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s ease-out;
+}
+.header-logo:hover {
+    color: rgb(231,130,0);
+}
+.header-logo__title {
+    margin-left: 5px;
+}
+.header-sign {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s ease-out;
+}
+.header-sign:hover {
+    color: rgb(231,130,0);
+}

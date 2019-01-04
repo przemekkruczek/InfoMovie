@@ -1,0 +1,81 @@
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-top: solid  rgb(231,130,0) 1px;
+}
+.form__list {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    position: absolute;
+    top: 180px;
+    z-index: 1;
+}
+.nodisplay {
+    display: none;
+}
+.searchBar {
+    padding: 15px 10px 15px 10px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 570px;
+    font-size: 18px;
+    color: black
+}
+.form__list-element {
+    list-style: none;
+    background-color: rgba(220, 220, 220, 0.9);
+    border: solid 1px gray;
+}
+.form__list-element:hover {
+    background-color: black;
+}
+.form__list-link {
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.form__list-link:hover {
+    color: rgb(231,130,0);
+}
+.form__list-img {
+    margin-right: 50px;
+    height: 150px;
+}
+.form__list-description {
+    margin-top: 5px;
+}
+.avatar {
+	padding-right: 10px;
+}
+.line {
+	width: 1px;
+	height: 32px;
+	background-color: #CDCDCD;
+	margin-top: 5px;
+}
+.input_box{
+	width: 600px;
+	height: 45px;
+	border: 1px solid #CDCDCD;
+	border-radius: 5px;
+    display: flex;
+    transition: 0.4s ease-out;
+}
+.input_box:hover{
+	border: 1px solid rgb(231,130,0);
+}
+.fas {
+    opacity: 0.4;
+    margin-left: 15px;
+    margin-right: 10px;
+    line-height: 42px;
+    font-size: 22px;
+}
