@@ -1,5 +1,5 @@
 # InfoMovie
-InfoMovie is a website using the React and API from Themoviedb(https://www.themoviedb.org/).
+InfoMovie is a movies search website using the React and API from Themoviedb(https://www.themoviedb.org/).
 
 Demo: https://przemekkruczek.github.io/InfoMovie/#/
 
